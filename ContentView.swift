@@ -35,7 +35,7 @@ struct ContentView: View {
     }
     
     private func createBalls(in size: CGSize) {
-        balls = (1...50).map { _ in
+        balls = (1...20).map { _ in
             Ball(
                 position: CGPoint(
                     x: CGFloat.random(in: 20...size.width - 50),
